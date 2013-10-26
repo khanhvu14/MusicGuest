@@ -21,7 +21,6 @@
 		DCB7B250181B66A8006ADDDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB7B232181B66A8006ADDDE /* UIKit.framework */; };
 		DCB7B258181B66A8006ADDDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB7B256181B66A8006ADDDE /* InfoPlist.strings */; };
 		DCB7B25A181B66A8006ADDDE /* MusicGuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB7B259181B66A8006ADDDE /* MusicGuestTests.m */; };
-		DCB7B267181B73F9006ADDDE /* input_focused.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB7B266181B73F9006ADDDE /* input_focused.png */; };
 		DCB7B269181B746D006ADDDE /* Music.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCB7B268181B746D006ADDDE /* Music.plist */; };
 		DCB7B272181B84DB006ADDDE /* 1622645_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCB7B271181B84DB006ADDDE /* 1622645_large.jpg */; };
 /* End PBXBuildFile section */
@@ -56,7 +55,6 @@
 		DCB7B255181B66A8006ADDDE /* MusicGuestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicGuestTests-Info.plist"; sourceTree = "<group>"; };
 		DCB7B257181B66A8006ADDDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCB7B259181B66A8006ADDDE /* MusicGuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicGuestTests.m; sourceTree = "<group>"; };
-		DCB7B266181B73F9006ADDDE /* input_focused.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = input_focused.png; path = ../../../../Desktop/input_focused.png; sourceTree = "<group>"; };
 		DCB7B268181B746D006ADDDE /* Music.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Music.plist; sourceTree = "<group>"; };
 		DCB7B271181B84DB006ADDDE /* 1622645_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1622645_large.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,7 +169,6 @@
 		DCB7B265181B73E9006ADDDE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DCB7B266181B73F9006ADDDE /* input_focused.png */,
 				DCB7B26A181B74BF006ADDDE /* Data */,
 			);
 			name = Resources;
@@ -263,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCB7B272181B84DB006ADDDE /* 1622645_large.jpg in Resources */,
-				DCB7B267181B73F9006ADDDE /* input_focused.png in Resources */,
 				DCB7B247181B66A8006ADDDE /* Images.xcassets in Resources */,
 				DCB7B269181B746D006ADDDE /* Music.plist in Resources */,
 				DCB7B239181B66A8006ADDDE /* InfoPlist.strings in Resources */,
