@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5145F222181B85A700DB4C65 /* guessmusic_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5145F21E181B85A700DB4C65 /* guessmusic_background.png */; };
+		5145F223181B85A700DB4C65 /* guessmusic_button_continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5145F21F181B85A700DB4C65 /* guessmusic_button_continue.png */; };
+		5145F224181B85A700DB4C65 /* guessmusic_button_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 5145F220181B85A700DB4C65 /* guessmusic_button_stop.png */; };
+		5145F225181B85A700DB4C65 /* guessmusic_view_question.png in Resources */ = {isa = PBXBuildFile; fileRef = 5145F221181B85A700DB4C65 /* guessmusic_view_question.png */; };
 		DCB7B22F181B66A8006ADDDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB7B22E181B66A8006ADDDE /* Foundation.framework */; };
 		DCB7B231181B66A8006ADDDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB7B230181B66A8006ADDDE /* CoreGraphics.framework */; };
 		DCB7B233181B66A8006ADDDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB7B232181B66A8006ADDDE /* UIKit.framework */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5145F21E181B85A700DB4C65 /* guessmusic_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_background.png; sourceTree = "<group>"; };
+		5145F21F181B85A700DB4C65 /* guessmusic_button_continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_button_continue.png; sourceTree = "<group>"; };
+		5145F220181B85A700DB4C65 /* guessmusic_button_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_button_stop.png; sourceTree = "<group>"; };
+		5145F221181B85A700DB4C65 /* guessmusic_view_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guessmusic_view_question.png; sourceTree = "<group>"; };
 		DCB7B22B181B66A8006ADDDE /* MusicGuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicGuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB7B22E181B66A8006ADDDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCB7B230181B66A8006ADDDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +93,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5145F21D181B857700DB4C65 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5145F21E181B85A700DB4C65 /* guessmusic_background.png */,
+				5145F21F181B85A700DB4C65 /* guessmusic_button_continue.png */,
+				5145F220181B85A700DB4C65 /* guessmusic_button_stop.png */,
+				5145F221181B85A700DB4C65 /* guessmusic_view_question.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		DCB7B222181B66A8006ADDDE = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +190,7 @@
 		DCB7B265181B73E9006ADDDE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5145F21D181B857700DB4C65 /* UI */,
 				DCB7B266181B73F9006ADDDE /* input_focused.png */,
 				DCB7B26A181B74BF006ADDDE /* Data */,
 			);
@@ -262,6 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5145F225181B85A700DB4C65 /* guessmusic_view_question.png in Resources */,
+				5145F223181B85A700DB4C65 /* guessmusic_button_continue.png in Resources */,
+				5145F224181B85A700DB4C65 /* guessmusic_button_stop.png in Resources */,
+				5145F222181B85A700DB4C65 /* guessmusic_background.png in Resources */,
 				DCB7B272181B84DB006ADDDE /* 1622645_large.jpg in Resources */,
 				DCB7B267181B73F9006ADDDE /* input_focused.png in Resources */,
 				DCB7B247181B66A8006ADDDE /* Images.xcassets in Resources */,
@@ -499,6 +523,7 @@
 				DCB7B25F181B66A8006ADDDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCB7B260181B66A8006ADDDE /* Build configuration list for PBXNativeTarget "MusicGuestTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +532,7 @@
 				DCB7B262181B66A8006ADDDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
